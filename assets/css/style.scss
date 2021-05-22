@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap');
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.jumbotron {
+    h4{
+        font-weight: 300;
+    }
+}
+
+#Services{
+    background-image: url('../img/services-banner-background.jpg');
+    background-size: cover;
+
+    .container{
+
+        .card-body{
+
+            p{
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+#Education{
+    .accordion{
+        border-left: 1px solid rgba(0,0,0,.125);
+        border-right: 1px solid rgba(0,0,0,.125);
+        box-shadow: 6px 6px 40px rgba(0, 0, 0, 0.4);
+        &:first-child{
+            border-top: 1px solid rgba(0,0,0,.125);
+        }
+
+    }
+
+
+}
+
+#Portfolio{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../img/free-portfolio-plugins.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+a.card-link{
+    text-decoration: none;
+}
+
+#Contact{
+    a{
+        font-size: 2rem;
+        display: inline-block;
+        padding: 20px;
+        height: 75px;
+        width: 75px;
+    }
+
+}
